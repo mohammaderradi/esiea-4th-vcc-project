@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  aws_bucket: udagram-instagram
+  aws_region: eu-east-1
+  aws_profile: default
+  jwt_secret: testing
+  url: http://localhost:8100
+  postgres_db: udagramdb
+  postgres_host: udagram-db
